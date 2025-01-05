@@ -11,4 +11,4 @@ p_sorted_asc = list_to_integer(sorted(digits, reverse=True))
 p_sorted_desc = list_to_integer(sorted(digits))
 #num_list = [int(i) for i in p_sorted]
 
-print(p_sorted_asc-p_sorted_desc)
+print("difference",p_sorted_asc-p_sorted_desc)
